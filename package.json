@@ -23,7 +23,8 @@
     "test": "react-scripts test",
     "styleguide": "NODE_ENV=dev styleguidist server",
     "styleguide:build": "styleguidist build",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prettier": "prettier --write *.js"
   },
   "lint-staged": {
     "*.js": [
