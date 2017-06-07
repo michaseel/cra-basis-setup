@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders snapshot 1`] = `
+exports[`renders Headline snapshot 1`] = `
 <h1
   className="sc-bdVaJa bzmvhR"
 >
