@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div>
         <div>
-          <Headline>Welcome to React</Headline>
+          <Headline>Welcome to Reasdfsdfsdfsct</Headline>
         </div>
         <p>
           To get started, edit <code>src/App.js</code> and save to reload.

@@ -4,6 +4,7 @@ exports[`renders Headline snapshot 1`] = `
 <h1
   className="sc-bdVaJa bzmvhR"
 >
+   
   Test
 </h1>
 `;

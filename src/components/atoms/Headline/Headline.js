@@ -7,6 +7,6 @@ const H1 = styled.h1`
   color: palevioletred;
 `;
 
-const Headline = ({ children }) => (<H1>{ children }</H1>);
+const Headline = ({ children }) => (<H1> { children }</H1>);
 
 export default Headline;
