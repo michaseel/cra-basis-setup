@@ -1,5 +1,6 @@
 # cra-basis-setup
 Create-React-App Basis Setup with styled-components, styleguidist, lint-staged
+[![Build Status](https://travis-ci.org/michaseel/cra-basis-setup.svg?branch=master)](https://travis-ci.org/michaseel/cra-basis-setup)
 
 
 
