@@ -11,6 +11,7 @@ const Headline = ({ children }) =>
   <H1>
     {children}
 
+    {children}
   </H1>;
 
 export default Headline;
