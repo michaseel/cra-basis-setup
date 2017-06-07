@@ -9,7 +9,7 @@ const H1 = styled.h1`
 
 const Headline = ({ children }) =>
   <H1>
-    {" "}{children}
+    {children}
 
   </H1>;
 
