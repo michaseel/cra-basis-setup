@@ -5,3 +5,7 @@ Create-React-App Basis Setup with styled-components, styleguidist, lint-staged
 * `yarn add styled-components`
 * `yarn add --dev react-styleguidist react-test-renderer webpack flow-bin`
 * `yarn flow -- init`
+
+
+TODO:
+* add `jest-styled-components` as soon as it supports styled-components v2
