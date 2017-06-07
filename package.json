@@ -9,6 +9,9 @@
   },
   "devDependencies": {
     "flow-bin": "^0.47.0",
+    "husky": "^0.13.4",
+    "lint-staged": "^3.6.0",
+    "prettier": "^1.4.2",
     "react-scripts": "1.0.7",
     "react-styleguidist": "^5.3.2",
     "react-test-renderer": "^15.5.4",
@@ -19,6 +22,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "styleguide": "NODE_ENV=dev styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
