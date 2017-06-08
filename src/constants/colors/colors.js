@@ -41,3 +41,6 @@ export const teal600 = '#00897b';
 export const teal700 = '#00796b';
 export const teal800 = '#00695c';
 export const teal900 = '#004d40';
+
+export const white = '#fff';
+export const black = '#000';
