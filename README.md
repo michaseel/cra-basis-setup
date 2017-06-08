@@ -8,7 +8,13 @@ Create-React-App Basis Setup with styled-components, styleguidist, lint-staged
 HowTo install this:
  - clone repo
  - `yarn install` (or `npm install`)
- - `yarn start` (or `yarn test` or `yarn build`)
+ - `yarn styleguide`  // to start styleguide server
+ 
+Other tasks: 
+- `yarn start` // to start dev server
+- `yarn test`  // to run javascript tests
+- `yarn build` // to produce minified production build 
+- `yarn styleguide:build` // to produce standalone styleguide build
 
 
 TODO:

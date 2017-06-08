@@ -19,13 +19,14 @@
     "webpack": "^2.6.1"
   },
   "scripts": {
-    "start": "NODE_PATH=src/ react-scripts start",
-    "build": "NODE_PATH=src/ react-scripts build",
-    "test": "NODE_PATH=src/ react-scripts test",
-    "styleguide": "NODE_PATH=src/ NODE_ENV=dev styleguidist server",
-    "styleguide:build": "NODE_PATH=src/ styleguidist build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
     "precommit": "lint-staged",
-    "prettier": "prettier --write *.js"
+    "prettier": "prettier *.js --write --print-width 120 --single-quote --trailing-comma es5",
+    "flow": "flow"
   },
   "lint-staged": {
     "*.js": [
