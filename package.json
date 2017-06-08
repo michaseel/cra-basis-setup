@@ -25,12 +25,12 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "precommit": "lint-staged",
-    "prettier": "prettier *.js --write --print-width 120 --single-quote --trailing-comma es5",
+    "prettier": "prettier --write --print-width 120 --single-quote --trailing-comma es5 'src/**/*.js'",
     "flow": "flow"
   },
   "lint-staged": {
     "*.js": [
-      "prettier --write",
+      "prettier --write --print-width 120 --single-quote --trailing-comma es5",
       "git add"
     ]
   }
