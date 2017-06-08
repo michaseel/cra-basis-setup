@@ -19,7 +19,6 @@ Headline.propTypes = {
   /** the headline text */
   children: PropTypes.string.isRequired,
   primary: PropTypes.bool,
-  headlines: PropTypes.arrayOf(PropTypes.string),
 };
 
 Headline.defaultProps = {
