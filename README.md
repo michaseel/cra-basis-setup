@@ -13,6 +13,7 @@ HowTo install this:
 Other tasks: 
 - `yarn start` // to start dev server
 - `yarn test`  // to run javascript tests
+- `yarn coverage`  // run javascript tests & print coverage
 - `yarn build` // to produce minified production build 
 - `yarn styleguide:build` // to produce standalone styleguide build
 
