@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ServiceTeaser snapshot 1`] = `
+.rOCEJ {
+  color: red;
+}
+
+.kabNnl {
+  font-size: 20px;
+}
+
+<div
+  className="sc-bdVaJa rOCEJ"
+>
+  <img
+    alt=""
+    src="https://unsplash.it/300/200?image=957"
+  />
+  <h3
+    className="sc-bwzfXH kabNnl"
+  >
+    Haus
+  </h3>
+  <p>
+    Für einen hübschen Garten und gesunde Pflanzen.
+  </p>
+</div>
+`;
