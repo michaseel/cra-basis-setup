@@ -5,8 +5,8 @@ exports[`renders ServiceTeaser snapshot 1`] = `
   color: red;
 }
 
-.kabNnl {
-  font-size: 20px;
+.hoFYxk {
+  font-size: 50px;
 }
 
 <div
@@ -17,7 +17,8 @@ exports[`renders ServiceTeaser snapshot 1`] = `
     src="https://unsplash.it/300/200?image=957"
   />
   <h3
-    className="sc-bwzfXH kabNnl"
+    className="sc-bwzfXH hoFYxk"
+    onMouseOver={[Function]}
   >
     Haus
   </h3>

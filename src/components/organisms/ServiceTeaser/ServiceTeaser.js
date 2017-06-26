@@ -7,13 +7,17 @@ const Wrapper = styled.div`
 `;
 
 const Headline = styled.h3`
-  font-size: 20px;
+  font-size: 50px;
 `;
+
+const clickHandler = () => {
+  alert('hello');
+};
 
 const ServiceTeaser = ({ href, image, title, children }) =>
   <Wrapper>
     <img src={image} alt="" />
-    <Headline>{title}</Headline>
+    <Headline onMouseOver={clickHandler}>{title}</Headline>
     <p>{children}</p>
   </Wrapper>;
 
